@@ -2,7 +2,6 @@
 
 body {
   text-align: center;
-  padding-bottom: 200px;
 }
 
 a {
@@ -16,7 +15,6 @@ nav {
   height: 100px;
   background: #222; 
   margin-top: -20px;
-  margin-bottom: 60px;
 }
 
 ul {
