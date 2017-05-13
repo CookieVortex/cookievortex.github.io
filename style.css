@@ -499,6 +499,8 @@ ul li a:hover {
 	color: #eee;
 	padding: 10px 35px; 
     overflow:hidden;
+    border-radius: 5px 5px;
+    background-color: #0066FF;
 }
 
 .dropOut .triangle {
@@ -631,17 +633,17 @@ background-image: url(images/3.jpg)
 }
 @-webkit-keyframes anim_slides {
 0% {opacity:0;}
-24% {opacity:1;}
-36% {opacity:1;}
-42% {opacity:0;}
+20% {opacity:1;}
+40% {opacity:1;}
+60% {opacity:0;}
 100% {opacity:0;}
 }
 
 @-moz-keyframes anim_slides {
 0% {opacity:0;}
-24% {opacity:1;}
-36% {opacity:1;}
-42% {opacity:0;}
+20% {opacity:1;}
+40% {opacity:1;}
+60% {opacity:0;}
 100% {opacity:0;}
 }
 
@@ -742,6 +744,15 @@ background-image: url(images/3.jpg)
 /*Анимация при наведении скрытого текстового блока*/
 .bulletsBlock > div:hover p.hideText{
     background:#454545;
+}
+
+.modern {
+	background-color: black;
+	opacity: 0.7;
+}
+
+.midb {
+	background-color: black;
 }
 
 /*!
